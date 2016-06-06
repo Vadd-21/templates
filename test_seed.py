@@ -11,4 +11,5 @@ class Test_batch(unittest.TestCase):
     def test_raise_error(self):
         self.assertRaises(TypeError, self.Class.function, "a", "b") #this example assumes the function needs non strings
         
-    
+if __name__ == "__main__":
+    unittest.main()
